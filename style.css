@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #323846;
+    width: 100%;
+}
+.option{
+    display: flex;
+    position: absolute; 
+    left: 30%;
+    top: 67%;
+}
+.stone,.paper,.scissor{
+    height: 134px;
+    width: 135px; 
+    border-radius: 60%;
+    margin: 20px;
+    cursor: pointer;
+}
+.you{
+    position: absolute;
+    top: 32%;
+    left: 55%;
+}
+#player{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+}
+#player img{
+    height: 161px;
+    width: 154px;
+}
+.pc{
+    position: absolute;
+    left: 38%;
+    top: 32%;
+}
+#computer{
+    position: absolute;
+    left: 35%;
+    top: 36%;
+}
+#computer img{
+    height: 161px;
+    width: 154px;
+}
+#Result{
+    text-align: center;
+    padding-top: -5px;
+    font-size: 55px;
+}
+.move{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 44%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+  }
+  #user-label {
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 4px;
+    padding: 2px;
+    padding-bottom: 6px;
+  }
+  
+  #comp-label {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 4px;
+    padding: 2px;
+    padding-bottom: 6px;
+  }
