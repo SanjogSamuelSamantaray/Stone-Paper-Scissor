@@ -81,8 +81,5 @@ function play(clicked_id) {
             document.getElementById("Result").innerHTML = "YOU WON 😁"
         }
     }
-    document.getElementById("player").classList.add(this.clicked_class)
-    
-
 }
 
