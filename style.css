@@ -94,3 +94,60 @@ body{
     padding: 2px;
     padding-bottom: 6px;
   }
+  .nmatch{
+    position: absolute;
+    left: 47%;
+    bottom: 79%;
+  }
+  h4{
+      color: white;
+      font-size: 18px;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 111px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #BDE2EA; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #186c868f;
+    width: 45%;
+    height: 5%;
+    border-radius: 8px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #0a0a0a;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #text{
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+  }
