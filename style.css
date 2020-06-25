@@ -153,8 +153,7 @@ body{
 }
 @media (max-width: 768px){
   .nmatch{
-    left: 41%;
-    bottom: 82%;
+    padding-left: 41%;
   }
   #computer {
     top: 36%;
@@ -169,5 +168,20 @@ body{
     height: 110px;
     width: 110px;
     margin: 12px;
+  }
+  .option{
+    left: 0%;
+  }
+  #computer{
+    left:2%;
+  }
+  .you{
+    left: 67%;
+  }
+  #Result{
+    font-size: 46px;
+    position: absolute;
+    top: 22%;
+    left: 16%;
   }
 }
