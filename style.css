@@ -144,10 +144,30 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
-  #text{
+#text{
     color: black;
     text-align: center;
     font-size: 26px;
     font-style: italic;
     font-family: 'Bebas Neue', cursive;
+}
+@media (max-width: 768px){
+  .nmatch{
+    left: 41%;
+    bottom: 82%;
   }
+  #computer {
+    top: 36%;
+  }
+  .pc {
+    left: 12%;
+  }
+  .move{
+    left: 33%;
+  }
+  .stone, .paper, .scissor {
+    height: 110px;
+    width: 110px;
+    margin: 12px;
+  }
+}
